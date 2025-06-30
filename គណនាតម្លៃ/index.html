@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <title>គណនាចំណេញ និងបញ្ចុះតម្លៃ</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <div class="calculator-box">
+    <h2> គណនាចំណេញ និងបញ្ចុះតម្លៃ</h2>
+
+    <label>🛒 តម្លៃដើម ($):</label>
+    <input type="number" id="costPrice" placeholder="ឧ. 12.50">
+
+    <label>📊 ភាគរយ (%):</label>
+    <input type="number" id="percentage" placeholder="ឧ. 40">
+
+    <label>🔢 ប្រភេទគណនា:</label>
+    <select id="calculationType">
+      <option value="profit">គណនាចំណេញ</option>
+      <option value="discount">គណនាបញ្ចុះតម្លៃ</option>
+    </select>
+
+    <div class="result" id="resultText"></div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
